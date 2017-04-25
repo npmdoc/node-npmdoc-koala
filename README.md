@@ -1,4 +1,7 @@
-# api documentation for  [koala (v1.0.0)](https://github.com/koajs/koala#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koala.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koala) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koala.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koala)
+# npmdoc-koala
+
+#### basic api documentation for  [koala (v1.0.0)](https://github.com/koajs/koala#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koala.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koala) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koala.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koala)
+
 #### Koa Framework Suite
 
 [![NPM](https://nodei.co/npm/koala.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/koala)
@@ -106,7 +109,8 @@
         "test-cov": "NODE_ENV=test node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter dot --timeout 2m --bail test/app/index.js",
         "test-travis": "NODE_ENV=test node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot --timeout 2m --bail test/app/index.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
